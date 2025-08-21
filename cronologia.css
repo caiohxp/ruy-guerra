@@ -1,0 +1,105 @@
+/* FORMATAÇÃO DA PÁGINA CRONOLOGIA */
+table.cronos, table.preCronos
+{
+	width: 94%;
+	margin: 0;
+	padding: 0;
+	margin: 0px auto;
+	border: 0;
+	border-collapse: collapse;
+}
+table.preCronos td
+{
+	font-size: 0.8em;
+	color: #777;
+	padding: 0 0.8em;
+}
+td.cor1
+{
+	width: 2em;
+	background: #bbb;
+}
+td.cor2
+{
+	width: 2em;
+	background: #003366;
+}
+td.cor3
+{
+	width: 2em;
+	background: #8b0000;
+}
+table.cronos td
+{
+	height: 1.6em;
+	line-height:1.6em;
+}
+td.blueTexto, td.redTexto
+{
+	padding: 0.2em 0.8em 0.2em 0.8em;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+}
+td.blueTexto
+{
+	color: #003388;
+}
+td.redTexto
+{
+	color: #8b2020;
+}
+td.limpa0
+{
+	background: #bbb;
+	color: #707376;
+	font-family: Georgia, times;
+	border-bottom: 1px solid #909396;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+td.blue
+{
+	background: #003366;
+	color: #306396;
+	border-bottom: 1px solid #205386;
+	border-top: 1px solid #306396;
+	border-left: 1px solid #003366;
+	font-family: Georgia, times;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+td.blue1
+{
+	background: #003366;
+	color: #306396;
+	font-family: Georgia, times;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #205386;
+	border-radius: 2.5em 0 0 0;
+}
+td.limpa2
+{
+	color: #444;
+	font-size: 0.85em;
+	padding: 0.2em 0.8em 0.2em 0.8em;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+td.red
+{
+	background: #8b0000;
+	color: #bb3030;
+	font-family: Georgia, times;
+	font-size: 1.4em;
+	font-weight: bold;
+	border-top: 1px solid #8b0000;
+	border-left: 1px solid #8b0000;
+	border-bottom: 1px solid #ab2020;
+	text-align: center;
+}
+/* FIM */

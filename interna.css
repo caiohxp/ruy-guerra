@@ -1,0 +1,276 @@
+body
+{
+	background: #bbb;
+	color: #444;
+}
+
+/* DIVS DIVS DIVS ESTRUTURAIS */
+.conteudo
+{
+	width: 1098px;
+	margin-bottom: 1.5em;
+}
+footer#rodape
+{
+	background: #8b0000;
+	height: auto;
+	margin: 0;
+	margin-top: 3%;
+	padding: 0;
+	width: 100%;
+	clear: both;
+}
+.sobretudo
+{
+	margin-top: 2%;
+	width: 100%;
+	text-align: center;
+}
+/* FIM */
+
+/* IMG IMG IMG */
+img.cronicas {width: 14%; height: auto;float: left;padding-right: 2%;}
+.img350{width: 350px; height: auto;}
+.img480{width: 480px; height: auto;}
+.img640{width: 640px; height: auto;}
+.img800{width: 800px; height: auto;}
+img.ruy
+{
+	display: block;
+	width: 20%;
+	height: auto;
+	float: left;
+	border: 0;
+	border-radius: 5.75em 0px 0px 0px;
+	padding-right: 1em;
+	margin: 0;
+	padding-left: 0;
+}
+img.tituloCategoria
+{
+	width: 41.53%;
+	height: auto;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+img.tituloCategoriaV
+{
+	display: block;
+	margin: 0px auto;
+	margin-top: 6%;
+	width: 41.53%;
+	height: auto;
+}
+img.tituloCategoriaV2
+{
+	display: block;
+	margin: 0px auto;
+	margin-top: 8%;
+	width: 49.45%;
+	height: auto;
+}
+/* FIM */
+
+/* FORMATAÇÃO DE TEXTO */
+.autor /* do texto */
+{
+	font-weight: normal;
+	font-size: 60%;
+	color: #444;
+}
+p.basico, ol, ul.teses
+{
+	margin: 1% 5%;
+	text-align: justify;
+}
+ul.teses li {margin-bottom: 1%;}
+p.basicoC
+{
+	margin: 1% 5%;
+	text-align: center;
+}
+p.busca
+{
+	margin: 1% 5% 0 5%;
+	float: right;
+}
+h3.coisa
+{
+	margin: 0;
+	margin-left: 30%;
+	font-size: 1em;
+	font-weight: bold;
+}
+p.coisa
+{
+	margin: 0;
+	margin-left: 30%;
+}
+p.contato
+{
+	margin: 1% 35%;
+	text-align: justify;
+	font-weight: bold;
+	line-height: 150%;
+}
+p.imagem {margin: 0px auto;text-align: center;font-family: tahoma,verdana,arial;color: #111;}
+p.lista
+{
+	font-size: 1.1em;
+	margin: 1% 5%;
+}
+p.lista a {text-transform: uppercase;}
+.inverte {text-transform: lowercase;}
+p.musica
+{
+	margin: 3% 10%;
+	text-align: justify;
+}
+.naoTitulo {font-weight: normal;}
+p.news
+{
+	margin: 0% 5%;
+	text-align: justify;
+}
+p.numCentro
+{
+	width: 100%;
+	text-align: center;
+}
+p.oficinas
+{
+	background: #444;
+	padding: 1em 2em;
+	font-family: georgia, times;
+	font-size: 110%;
+	color: #fff;
+	margin: 4% 8%;
+	line-height: 140%;
+	text-align: justify;
+}
+p.oficinas a {color: #fff;}
+p.ordem
+{
+	font-size: 0.9em;
+	margin: 2% 5% 0 5%;
+	float: left;
+}
+p.pergunta
+{
+	margin: 1% 5%;
+	font-weight: bold;
+	text-align: justify;
+}
+p.resposta
+{
+	margin: 1% 5%;
+	text-align: justify;
+}
+#rodape p
+{
+	margin: 0;
+	background: #8b0000;
+	padding: 1% 5%;
+	font-size: 0.85em;
+	color: #fff;
+}
+.semTexto {color:#0000ff;text-transform: uppercase;}
+h1.titulo
+{
+	color: #000;
+	margin: 0% 5%;
+	font: bold 1.2em georgia,times;
+	text-transform: uppercase;
+}
+h1.tituloConteudo
+{
+	color: #000;
+	width: 90%;
+	margin: 0px auto;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* fim da formatação de texto */
+
+/* FORMULÁROS */
+.botao, .botao2
+{
+	margin: 0;
+	background: -webkit-linear-gradient(top, #7b0000, #bb0000, #7b0000);
+	background: -moz-linear-gradient(top, #7b0000, #bb0000, #7b0000);
+	background: -ms-linear-gradient(top, #7b0000, #bb0000, #7b0000);
+	color: #fff;
+	padding: 0.3em 0.6em;
+	border: 1px solid #3b0000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.botao {border-radius: 0 9px 9px 0;}
+.botao2 {font-size: 1em; border-radius: 9px;}
+.botao:hover, .botao2:hover
+{
+	background: -webkit-linear-gradient(top, #bb0000, #7b0000, #bb0000);
+	background: -moz-linear-gradient(top, #bb0000, #7b0000, #bb0000);
+	background: -ms-linear-gradient(top, #bb0000, #7b0000, #bb0000);
+}
+.campo
+{
+	margin: 0;
+	border: 1px solid #8b0000;
+	padding: 0.3em 0.5em;
+	border-radius: 9px 0 0 9px;
+}
+.cheio
+{
+	margin: 0;
+	width: 24em;
+	border: 1px solid #8b0000;
+	padding: 0.3em 0.5em;
+	border-radius: 0 9px 9px 0;
+}
+/* FIM */
+
+p.lista a:link {color: #0000ff;text-decoration: underline;}
+p.lista a:visited {color: #003366;text-decoration: underline;}
+p.lista a:active {color: #003366; text-decoration: underline;}
+p.lista a:hover {color: #bb0000; text-decoration: underline;}
+p.ordem a:link {color: #444;text-decoration: underline;}
+p.ordem a:visited {color: #444;text-decoration: underline;}
+p.ordem a:active {color: #444;text-decoration: underline;}
+p.ordem a:hover {color: #444;text-decoration: underline;}
+#rodape a:link {color: #fff;text-decoration: underline;}
+#rodape a:visited {color: #fff;text-decoration: underline;}
+#rodape a:active {color: #fff; text-decoration: underline;}
+#rodape a:hover {color: #fff; text-decoration: underline;}
+@media all and (max-width: 1200px) {
+	.conteudo {width: 96%;}
+}
+@media all and (max-width: 1000px) {
+	h1.tituloConteudo {margin-top: 1em;font-size: 1.5em;}
+	.img800{width: 90%;}
+	p.contato{margin: 1% 31%;}
+}
+@media all and (max-width: 800px) {
+	p.busca {float: none;clear: both;}
+	.botao, .campo {margin-top: 0.5em; padding: 0.2em 0.4em;}
+	h1.tituloConteudo {font-size: 1.1em;}
+	img.tituloCategoria{margin-top: 1em;}
+	img.tituloCategoriaV,img.tituloCategoriaV2{margin-top: 2em;}
+	.conteudo{width: 92%;}
+	img.ruy{border-radius: 2em 0px 0px 0px;}
+	.img640{width: 90%;}
+	p.contato{margin: 1% 25%;}
+}
+@media all and (max-width: 600px) {
+	img.tituloCategoria{margin-top: 2%;margin-bottom: 3%;}
+	.img480{width: 90%;}
+	.img350{width: 80%;}
+	h1.tituloConteudo{width: 94%;font-size: 1em;}
+	ul.teses{list-style-position:inside;margin: 1% 2% 1% 0;font-size:0.8em;}
+	ul.teses li{margin: 0;padding:0;}
+	p.oficinas{padding: 0.5em 1em;font-size: 0.9em;margin: 2% 4%;}
+	p.contato{margin: 1% 5%;}
+	.cheio{width: 90%;}
+	.botao2{margin-top: 1em;}
+}

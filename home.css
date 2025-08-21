@@ -1,0 +1,252 @@
+body
+{
+	background: #bbb;
+}
+
+/* DIVS DIVS DIVS */
+.conteudo
+{
+	background-image: url('images/textura34.jpg');
+	width: 1260px;
+	height: 800px;
+}
+div.blocos
+{
+	width: 360px;
+	height: 270px;
+	background: #ddddee;
+	box-shadow: #333 0.3em 0.3em 1.2em;
+}
+.centraliza
+{
+	width: 750px;
+	margin: 0px auto;
+	margin-top: 4%;
+	height: 800px;
+	text-align: center;
+	float: right;
+	border: 0;
+}
+div.botoes
+{
+	position: relative;
+	left: 34%;
+	top: -94%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+div#legenda
+{
+	position: relative;
+	top: -90%;
+	left: 18%;
+	width: 64%;
+	background-color: rgba(231,225,199,0.4);
+	padding: 0;
+	margin: 0;
+	border: 0;
+	clear: both;
+}
+#maisMenu {display: none;}
+.nasceu
+{
+	margin: 1%;
+	margin-top: 4%;
+	margin-left: 3.5%;
+	width: 420px;
+	height: auto;
+	float: left;
+	border: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* FIM */
+
+/* APRESENTAÇÃO */
+
+div.botoes img
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	float: left;
+}
+div#legenda p
+{
+	width: 100%;
+	font-size: 1em;
+	padding: 0.6em;
+	font-family: arial, verdana;
+	text-shadow: #555 2px 2px 5px;
+	text-align: center;
+}
+p.ruyguerra
+{
+	padding: 0.62em;
+	font: normal 1em arial;
+	text-align: justify;
+	text-shadow: #555 2px 2px 5px;
+}
+h1.letreiro
+{
+	color: #9b0000;
+	font: bold 3em georgia,times;
+	text-shadow: #555 3px 3px 5px;
+	text-align: center;
+}
+.noticia2
+{
+	color: #9b0000;
+	text-shadow: #e7e1c7 1px 1px;
+	background: #e7e1c7;
+	background: -webkit-linear-gradient(top, #e7e1c7, #a7a187,#a7a187, #e7e1c7);
+	background: -moz-linear-gradient(top, #e7e1c7, #a7a187,#a7a187, #e7e1c7);
+	background: -ms-linear-gradient(top, #e7e1c7, #a7a187,#a7a187, #e7e1c7);
+	padding: 0.6em 1em;
+	border-radius: 12px;
+	border: 1px solid #ab2020;
+	font: bold 1.1em verdana;
+	text-decoration: none;
+}
+.noticia2:hover
+{
+	background: #a7a187;
+	background: -webkit-linear-gradient(top, #a7a187, #e7e1c7, #a7a187);
+	background: -moz-linear-gradient(top, #a7a187, #e7e1c7, #a7a187);
+	background: -ms-linear-gradient(top, #a7a187, #e7e1c7, #a7a187);
+}
+div#img1
+{
+	position: relative;
+	left: 45%;
+	top: 34%;
+	border: 5px solid #8b0000;
+	z-index: 5;
+}
+div#img2
+{
+	position: relative;
+	left: 18%;
+	top: 5%;
+	border: 5px solid #222;
+	z-index: 4;
+}
+div#img3
+{
+	position: relative;
+	left: 0px;
+	top: -45%;
+	border: 5px solid #222;
+	z-index: 3;
+}
+div#img4
+{
+	position: relative;
+	left: 15%;
+	top: -101%;
+	border: 5px solid #222;
+	z-index: 2;
+}
+div#img5
+{
+	position: relative;
+	left: 42%;
+	top: -129%;
+	border: 5px solid #222;
+	z-index: 1;
+}
+img.foto
+{
+	width: 100%;
+	height: 100%;
+}
+img#foto1
+{
+	opacity: 1;
+}
+img#foto2
+{
+	opacity: 0.6;
+}
+img#foto3
+{
+	opacity: 0.5;
+}
+img#foto4
+{
+	opacity: 0.4;
+}
+img#foto5
+{
+	opacity: 0.3;
+}
+/* FIM */
+@media all and (max-width: 1600px) {
+	.centraliza{width: 675px;height: 720px;}
+	.nasceu{width: 378px;}
+	p.ruyguerra{font-size: 0.95em}
+	div.blocos{width: 324px;height: 243px;}
+	div#legenda{width: 324px;} 
+	.conteudo {width: 1134px;}
+	h1.letreiro{font-size:2.8em;}
+}
+@media all and (max-width: 1400px) {
+	.centraliza{width: 637px;height: 680px;}
+	.nasceu{width: 357px;}
+	p.ruyguerra{font-size: 0.95em}
+	div.blocos{width: 300px;height: 225px;}
+	div#legenda{width: 300px;} 
+	.conteudo {width: 1071px;}
+	h1.letreiro{font-size:2.5em;}
+}
+@media all and (max-width: 1100px) {
+	.centraliza{width: 541px;height: 578px;}
+	.nasceu{width: 304px;}
+	div.blocos{width: 255px;height: 191px;}
+	.conteudo {width: 910px;}
+	h1.letreiro{font-size:2.1em;}
+	p.ruyguerra{font-size: 0.9em}
+	.noticia2{padding: 0.5em 0.9em;font-size: 0.9em;border-radius: 12px;}
+}
+@media all and (max-width: 946px) {
+	.centraliza{width: 465px;height: 497px;}
+	.nasceu{width: 261px;}
+	div.blocos{width: 219px;height: 164px;}
+	.conteudo {width: 782px;}
+	h1.letreiro{font-size:1.8em;}
+	div#legenda p{font-size: 0.85em;}
+}
+@media all and (max-width: 840px) {
+	.centraliza{width: 409px;height: 437px;}
+	.nasceu{width: 229px;}
+	div.blocos{width: 192px;height: 144px;}
+	.conteudo {width: 688px;}
+	h1.letreiro{font-size:1.6em;}
+	p.ruyguerra{font-size: 0.8em}
+	div#legenda{left: 12%;width: 64%;}
+}
+@media all and (max-width: 790px) {
+	div#img1 {border: 4px solid #8b0000;}
+	div#img2, div#img3, div#img4, div#img5 {border: 4px solid #222;}
+	.conteudo {width: 96%;}
+	.centraliza, .nasceu {float:none;}
+	.nasceu {width: 90%;}
+}
+@media all and (max-width: 450px) {
+	#maisMenu {display: block;width: 100%;background:#000;text-align: center;}
+	#maisMenu a{color: #fff;font-size:1em;line-height:2em;}
+	.centraliza{width: 360px;height: 384px;}
+	div.blocos{width: 169px;height: 127px;}
+}
+@media all and (max-width: 360px) {
+	div#img1 {border: 3px solid #8b0000;}
+	div#img2, div#img3, div#img4, div#img5 {border: 3px solid #222;}
+	.centraliza{width: 280px;height: 299px;}
+	div.blocos{width: 131px;height: 99px;}
+	div#legenda{left: 0;width: 100%;}
+}

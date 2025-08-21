@@ -1,0 +1,287 @@
+body
+{
+	font-size: 1em;
+	font-family: Arial, Verdana, Tahoma;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+}
+.all
+{
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+
+/* DIVS DIVS DIVS ESTRUTURAIS */
+header, section, footer, aside, nav, article
+{
+  display: block;
+}
+nav.container
+{
+	width: 100%;
+	border-bottom: 1px solid #bd9098;
+	background-color: #000;
+}
+.conteudo
+{
+	display: table;
+	position: relative;
+	top: 5.5em;
+	margin: 0px auto;
+	margin-top: 0px;
+	padding: 0px;
+	background: #fff;
+	z-index: 7;
+	border: 1px solid #555;
+	border-radius: 5.75em 5.75em 0px 0px;
+	box-shadow: #333 0px 0.2em 1em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.cortina
+{
+	margin: 0px auto;
+	width: 100%;
+	height: auto;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+div.sobre
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+/* FIM */
+
+/* IMG IMG IMG */
+img
+{
+	border: 0;
+}
+img.nada
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 8em;
+}
+img.pais{height: 18px; width: auto;}
+/* FIM */
+
+/* SPAM SPAM SPAM formatação de texto básica */
+.branco
+{
+	color: #fff;
+}
+.italico
+{
+	font-style: italic;
+}
+.negrito
+{
+	font-weight: bold;
+}
+.ni
+{
+	font-style: italic;
+	font-weight: bold;
+}
+.vermelho
+{
+	color: #ab0000;
+}
+/* FIM */
+
+/* MENU CEL */
+div#menuCel
+{
+	display: none;
+	color: #fff;
+}
+div#menuCel a {color: #ffffff;font-size:0.8em;}
+
+/* MENU DROP DOWN */
+div#menuwrapper {
+	position: relative;
+	width: 1098px;
+	margin: 0px auto;
+	line-height: 150%;
+	z-index: 8;
+}
+
+/*
+p7menubar is the root UL and p7menubar ul applies to all the sub-menu ULs.
+We set padding and margin to zero to eliminate all indentation, turn bullets off,
+and set a font-family different from the global font-family declared for the
+body element above. This sets font for just the menu. Do not add a font-size here.
+*/
+#p7menubar, #p7menubar ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/*
+Root-Level Links.  Do not change the first two properties.
+Adjust padding values to make the root links taller and to offset them
+from the left and right edges of the link box. The border right creates a
+separator between links. Font-size is set here and will apply to all menu levels.
+Font color is set to light gray.
+*/
+#p7menubar a, #p7menubar span {
+	display: block;
+	padding: 0.31em 0.62em 0.31em 0.62em;
+	text-decoration: none;
+	border-right: 1px solid #444;
+	font-size: .9em;
+	color: #ddd;
+}
+/*
+Class assigned to those Root-Level links that have associated Sub-Menus.
+The top and bottom padding assigned this element must be the same as
+that assigned to the p7menubar a element. The right padding is increased
+to accomodate the display of background image depicting a downward
+pointing arrow.
+*/
+#p7menubar .trigger {
+	border-left: 1px solid #333333;
+	padding: 0.31em 1em 0.31em 0.62em;
+	}
+/*
+The Root-Level list items. Floating left allows
+them to appear horizontally. Width is for IE5 Mac. The last rule in
+this style sheet will set the width for this element to auto for all
+other browsers - hiding it from IE5 Mac. The width is proportional.
+As you add and edit root menu items, you will need to test this width
+to ensure it is wide enough to accomodate all text.
+*/
+.principal {
+	float: left;
+	width: 6em;
+}
+/*
+Sets width for Sub-Menu box and the List Items inside - in proportional em units. 
+This allows the sub-menu width to expand if users resize the text in their browsers.
+*/
+.montagem, .montagem li
+{
+	width: 13em;
+	text-align: left;
+}
+
+
+/*
+The sub-menu links. We set color and turn off the right border, which
+would otherwise be inherited from the root link rule. We set top and 
+bottom padding less than the root items and increas the left padding
+to indent the sub-menu links a small amount in from the root links.
+*/
+#p7menubar ul li a  {
+	color: #777;
+	border-right: 0;
+	padding: 0.19em 0.75em 0.19em 1em;
+}
+/*
+Sub-Menu Unordered Lists describes each dropdown sub-menu grouping. 
+Positioned Absolutely to allow them to appear below their root trigger.
+Set to display none to hide them until trigger is moused over.
+Background Color must be set or problems will be encountered in MSIE.
+Right and bottom borders are set to simulate a raised look.
+A gradient background image is assigned.
+*/
+#p7menubar li ul {
+	position: absolute;
+	display: none;
+	background-color: #ddd;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+/*
+Changes the Text color and background color when the Root-Level
+menu items are moused over. The second selector sets color and background
+when Root-Level items are accessed with the keyboard tab key. The third
+selector sets an active state to support keyboard access in MSIE. The fourth 
+selector is assigned to IE5 and IE6 Windows via the P7_ExpMenu script.
+Note that IE7 supports hover on elements other than links and so behaves
+like Firefox, Opera, and Safari - making the menu operable even if JavaScript
+is not enabled.
+*/
+#p7menubar li:hover a, #p7menubar a:focus,
+#p7menubar a:active, #p7menubar li.p7hvr a {
+	color: #ff0000;
+	background-color: #000;
+}
+/*
+Set the Sub-Menu UL to be visible when its associated
+Root-Level link is moused over. The second selector is 
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+*/
+#p7menubar li:hover ul, #p7menubar li.p7hvr ul {
+	display: block;
+}
+/*
+Sets the Text color of the Sub-Level links when the Root-Level
+menu items are moused over. The second selector is 
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+The color set should march the normal Sub-Level link color
+in the rule: #p7menubar ul li a. The background color must be
+transparent to allow the underlying gradient background on the UL
+to show through.
+*/
+#p7menubar li:hover ul a, #p7menubar li.p7hvr ul a {
+	color: #000000;
+	text-decoration: underline;
+	background-color: transparent;
+}
+/*
+The normal hover class for Sub-Level links. The Important directive
+is required for older browsers. We set a background color, which shows
+over the gradient background. We set text color to white.
+*/
+#p7menubar ul a:hover {
+	background-color: #ddd!important;
+	color: #000!important;
+	font-weight: bold;
+}
+/* The single backslash \ character inside this comment
+causes IE5 Mac to ignore the following rule, which allows other
+browsers to render top-level menu items to their natural width.
+Do not edit this rule in any way. */
+#p7menubar li {width: auto;}
+@media all and (max-width: 1098px) {
+	div#menuwrapper{width: auto;font-size:0.8em;}
+	img.nada{height: 7em;}
+	img.pais{height: 15px;}
+	.conteudo{top: 4.5em;border-radius: 4.75em 4.75em 0px 0px;}
+}
+@media all and (max-width: 946px) {
+	div#menuwrapper{font-size:0.7em;}
+	img.pais{height: 12px;}
+}
+@media all and (max-width: 850px) {
+	div#menuwrapper{font-size:0.65em;}
+	.conteudo{top: 3em;border-radius: 3.5em 3.5em 0px 0px;}
+	img.nada{height: 6em;}
+}
+@media all and (max-width: 820px) {
+	body {font-size: 0.85em;}
+}
+@media all and (max-width: 790px) {
+	div#menuCel{display: block;}
+	div#menuwrapper{width:0;height:0;display: none;}
+}
+@media all and (max-width: 600px) {
+	body {font-size: 0.8em;}
+}
+	

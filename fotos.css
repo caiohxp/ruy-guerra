@@ -1,0 +1,58 @@
+article.fotos
+{
+	width: 100%;
+	border: 0;
+	margin-bottom: 2em;
+	text-align: center;
+}
+.foraDeFoco
+{
+	background: #fff;
+	padding: 0.1em 0.5em;
+	margin: 0 0.3em;
+	border: 1px solid #000;
+	color: #000;
+}
+.foraDeFoco:hover
+{
+	background: #8b0000;
+	border: 1px solid #000;
+	color: #fff;
+	cursor: pointer;
+}
+.emFoco
+{
+	background: #000;
+	padding: 0.1em 0.5em;
+	margin: 0 0.3em;
+	border: 1px solid #000;
+	color: #fff;
+}
+div.palco
+{
+	height: 500px;
+}
+img.foto
+{
+	height: 440px;
+	width: auto;
+}
+p.legendaFoto
+{
+	margin: 0 3% 0 3%;
+}
+@media all and (max-width: 1200px) {
+	img.foto{height: 88%;}
+}
+@media all and (max-width: 850px) {
+	div.palco {height: 414px;}
+}
+@media all and (max-width: 700px) {
+	div.palco {height: 308px;}
+	img.foto{height: 80%;}
+	.foraDeFoco, .emFoco {font-size:0.8em;}
+}
+@media all and (max-width: 530px) {
+	div.palco {height: 186px;}
+	img.foto{height: 70%;}
+}
